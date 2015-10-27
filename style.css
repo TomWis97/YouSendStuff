@@ -1,0 +1,63 @@
+@url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+html {
+    background-image: url("img/back.png");
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: block;
+    width: 333px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+header {
+    margin: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+    color: rgb(255, 255, 190);
+}
+
+header p {
+    margin: 0;
+    color: rgb(150,150,100);
+    font-weight: 300;
+}
+
+main {
+    border-radius: 10px;
+    background-image: url("img/front.png");
+    padding: 5px;    
+}
+
+main h1 {
+    margin: 0;
+}
+
+main p {
+    margin: 5px 0; 
+}
+
+main form {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0;
+}
+
+main input {
+    margin: 5px 0;
+}
+
+main input[type='password'] {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+main label {
+    display: block;
+}
